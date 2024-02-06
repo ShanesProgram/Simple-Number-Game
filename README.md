@@ -41,7 +41,8 @@ I don't have instructions for other linux distros but if you are using a distro 
 ### Linux
 
 Prerequisites:
--GNU G++
+- Git
+- GNU G++
 
 1. Clone the repository
 ```
@@ -62,6 +63,7 @@ make
 ### Windows
 
 Prerequisites:
+- Git
 - Visual Studio Code
 - PowerShell
 - GNU G++
