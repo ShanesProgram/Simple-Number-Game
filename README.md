@@ -33,6 +33,12 @@ cd Simple-Number-Game/
 ./simpleNumberGameLin
 ```
 
+If you get a permission error, run the following
+```
+chmod +x simpleNumberGameLin
+```
+Then run again
+
 ### Linux (Other)
 I don't have instructions for other linux distros but if you are using a distro that isn't Ubuntu, you are probably smart enough to figure it out.
 
