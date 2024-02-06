@@ -25,11 +25,11 @@ sudo apt install git
 ```
 2. Clone the repository
 ```
-git clone ---
+git clone https://github.com/ShanesProgram/Simple-Number-Game.git
 ```
 3. Run the binary file
 ```
-cd ---
+cd Simple-Number-Game/
 ./simpleNumberGameLin
 ```
 
@@ -38,13 +38,47 @@ I don't have instructions for other linux distros but if you are using a distro 
 
 ## Building From Source
 
+### Linux
 
-## Linux
+Prerequisites:
+-GNU G++
 
 1. Clone the repository
+```
+git clone https://github.com/ShanesProgram/Simple-Number-Game.git
+```
+2. Compile the source
+```
+cd Simple-Number-Game/
+cd build/
+cmake -G "Unix Makefiles" ../Linux
+make
+```
+3.Execute by running the following command
+```
+-./simpleNumberGameLin
+```
 
-cd build
-    -cmake -G "Unix Makefiles" ../Linux
-    -make
-    -run by doing the following command:
-        -./
+### Windows
+
+Prerequisites:
+- Visual Studio Code
+- PowerShell
+- GNU G++
+
+1. Clone the repository
+   - Go to the github page for this project
+   - Click the green button labelled "code"
+   - Go under the Local Tab
+   - Click "Download Zip"
+   - Once downloaded, unzip the folder
+2. Inside a powershell window, located in the project's directory, run the following
+```
+cd build/
+cmake -G "Visual Studio" ../Windows
+make
+```
+3. Now you can execute with the following
+```
+simpleNumberGameWin.exe
+```
