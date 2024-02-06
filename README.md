@@ -20,22 +20,22 @@ The game starts with letting the player pick a number (1-9), then the computer p
 
 1. Ensure that Git is installed
 ```
-sudo apt update
-sudo apt install git
+$ sudo apt update
+$ sudo apt install git
 ```
 2. Clone the repository
 ```
-git clone https://github.com/ShanesProgram/Simple-Number-Game.git
+$ git clone https://github.com/ShanesProgram/Simple-Number-Game.git
 ```
 3. Run the binary file
 ```
-cd Simple-Number-Game/
-./simpleNumberGameLin
+$ cd Simple-Number-Game/
+$ ./simpleNumberGameLin
 ```
 
 If you get a permission error, run the following
 ```
-chmod +x simpleNumberGameLin
+$ chmod +x simpleNumberGameLin
 ```
 Then run again
 
@@ -52,19 +52,19 @@ Prerequisites:
 
 1. Clone the repository
 ```
-git clone https://github.com/ShanesProgram/Simple-Number-Game.git
+$ git clone https://github.com/ShanesProgram/Simple-Number-Game.git
 ```
 2. Compile the source
 ```
-cd Simple-Number-Game/
-mkdir build
-cd build/
-cmake -G "Unix Makefiles" ../Linux
-make
+$ cd Simple-Number-Game/
+$ mkdir build
+$ cd build/
+$ cmake -G "Unix Makefiles" ../Linux
+$ make
 ```
 3.Execute by running the following command
 ```
--./simpleNumberGameLin
+$ ./simpleNumberGameLin
 ```
 
 ### Windows
