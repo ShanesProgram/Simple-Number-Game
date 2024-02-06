@@ -51,6 +51,7 @@ git clone https://github.com/ShanesProgram/Simple-Number-Game.git
 2. Compile the source
 ```
 cd Simple-Number-Game/
+mkdir build
 cd build/
 cmake -G "Unix Makefiles" ../Linux
 make
@@ -74,9 +75,8 @@ Prerequisites:
    - Go under the Local Tab
    - Click "Download Zip"
    - Once downloaded, unzip the folder
-2. Inside a powershell window, located in the project's directory, run the following
+2. Located in the project's directory, create a "build" folder, then inside run the following inside a powershell window.
 ```
-cd build/
 cmake -G "Visual Studio" ../Windows
 make
 ```
