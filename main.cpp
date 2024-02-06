@@ -2,6 +2,19 @@
 #include <cstdlib>
 #include <ctime>
 
+#ifdef _WIN64
+void clear(){
+    system("CLS");
+}
+#elif _WIN32
+void clear(){
+    system("CLS");
+}
+#else
+void clear(){
+    system("clear");
+}
+
 unsigned int number;        //number is the variable that holds the user's guess 
 unsigned int randomNumber;  //randomNumber is the variable that contains the randomNumber
 
