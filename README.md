@@ -83,7 +83,7 @@ Prerequisites:
    - Once downloaded, unzip the folder
 2. Located in the project's directory, create a "build" folder, then inside run the following inside a powershell window.
 ```
-cmake -G "Visual Studio" ../Windows
+cmake -G "Visual Studio 17 2022" ../Windows
 make
 ```
 3. Now you can execute with the following
