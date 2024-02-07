@@ -53,6 +53,7 @@ I don't have instructions for other linux distros but if you are using a distro 
 Prerequisites:
 - Git
 - GNU G++
+- CMake
 
 1. Clone the repository
 ```
