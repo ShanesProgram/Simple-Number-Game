@@ -15,6 +15,10 @@ The game starts with letting the player pick a number (1-9), then the computer p
     - Once downloaded, unzip the folder
 2. Go into the repositories directory on your device
 3. Run the program "simpleNumberGameWin.exe"
+4. When running on Windows, expect to get the following error on the first run of the game
+```
+'clear' is not recognized as an internal or external command, operable program or batch file.
+```
 
 ### Linux (Ubuntu)
 
