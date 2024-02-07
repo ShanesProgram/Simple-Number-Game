@@ -73,7 +73,7 @@ static void logic(){
         exit(1);
     }
     else if (nextGame == 'c'){
-        system("clear");
+        clear();
     }
     else {
 
