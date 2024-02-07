@@ -63,10 +63,10 @@ static void logic(){
     }
     else if (nextGame == 'c'){
         #ifdef _WIN64
-	system("cls");
-	#else
-	system("clear");
-	#endif
+	    system("cls");
+	    #else
+	    system("clear");
+	    #endif
     }
     else {
 
